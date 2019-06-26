@@ -1,0 +1,26 @@
+import numpy
+import math as m
+from math import*
+a = float(input())
+b = float(input())
+c = float(input())
+d = (b**2 - 4*a*c)
+if d>=0:
+    e=m.sqrt(d)
+    f = round(((-b+e)/(2*a)),3)
+    g = round(((-b-e)/(2*a)),3)
+    print f, g
+else:
+    w = -d
+    h = m.sqrt(w)
+    i = (-b)/(2*a)
+    i = round(i,3)
+    k = round(((h)/(2*a)),3)
+    z = complex(i,k)
+    n = complex(i,-k)
+    print z,n
+#end
+
+    
+    
+    
